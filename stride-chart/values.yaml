@@ -1,0 +1,17 @@
+namespace:
+  name: value
+
+deploymentName: value
+
+repositoryURL: value
+
+image:
+  name: value
+  tag: value
+
+secretName: value
+
+data:
+  server: value
+  userName: value
+  password: value
