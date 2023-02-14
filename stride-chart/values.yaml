@@ -13,8 +13,3 @@ image:
   tag: value
 
 secretName: value
-
-data:
-  server: value
-  userName: value
-  password: value
