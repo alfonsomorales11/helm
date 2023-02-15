@@ -3,7 +3,7 @@ entries:
   stride-chart:
   - apiVersion: v2
     appVersion: 1.40.0
-    created: "2023-02-14T17:22:16.5607959-06:00"
+    created: "2023-02-14T18:14:07.0779748-06:00"
     description: A Helm chart for Kubernetes
     digest: cf1312ac2fdd2e6ba22eeed21110c61f28950bebaa2e9c24d43c016062e2d5d2
     name: stride-chart
@@ -13,7 +13,7 @@ entries:
     version: 0.1.90
   - apiVersion: v2
     appVersion: 1.30.0
-    created: "2023-02-14T17:22:16.5602306-06:00"
+    created: "2023-02-14T18:14:07.0779748-06:00"
     description: A Helm chart for Kubernetes
     digest: a4833d14735733d840426f5ff7b79a1957db5c83c0714f62d4d11a01b7133e18
     name: stride-chart
@@ -23,7 +23,7 @@ entries:
     version: 0.1.80
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2023-02-14T17:22:16.5551094-06:00"
+    created: "2023-02-14T18:14:07.0678364-06:00"
     description: A Helm chart for Kubernetes
     digest: 7f572c5dc155d1de760633a8e09235b25e211aafd2666b3e0967e080bdda2bc2
     name: stride-chart
@@ -33,7 +33,7 @@ entries:
     version: 0.1.69
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2023-02-14T17:22:16.5488354-06:00"
+    created: "2023-02-14T18:14:07.0678364-06:00"
     description: A Helm chart for Kubernetes
     digest: 9d523b1c325ccf3ff32c0705b31fc8d5542ad02ae2beb199fb1c9e61a4de71d8
     name: stride-chart
@@ -41,4 +41,15 @@ entries:
     urls:
     - charts/stride-chart-0.1.1.tgz
     version: 0.1.1
-generated: "2023-02-14T17:22:16.5438657-06:00"
+  stride-chart-dev:
+  - apiVersion: v2
+    appVersion: 1.10.0
+    created: "2023-02-14T18:14:07.0779748-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 03c75b670d7718d42767eab2347521bb19f541e1a5a4cd37686f6e2de149e86c
+    name: stride-chart-dev
+    type: application
+    urls:
+    - charts/stride-chart-dev-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-02-14T18:14:07.0603492-06:00"

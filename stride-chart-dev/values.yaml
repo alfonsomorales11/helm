@@ -1,0 +1,15 @@
+namespace:
+  name: value
+
+deploymentName: value
+
+repositoryURL: value
+
+dockerConfig:
+  value: value
+
+image:
+  name: value
+  tag: value
+
+secretName: value

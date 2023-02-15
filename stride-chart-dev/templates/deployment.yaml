@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: {{ .Values.deploymentName  }}
+  namespace: {{ .Values.namespace.name }}
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: java
+
+  template:
+    metadata:
+      labels:
+        app: java
+
+    spec:
+      containers:
+      - name: java
+        image: {{ .Values.repositoryURL }}/{{ .Values.image.name }}:{{ .Values.image.tag }}
+        command: [ "/bin/sh", "-c", "--" ]
+        args: [ "while true; do sleep 30; done;" ]
+
+      imagePullSecrets:
+      - name: {{ .Values.secretName }}
